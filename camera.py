@@ -2,12 +2,12 @@ import cv2
 import time
 
 # Set your camera's IP address, username, and password here
-camera_ip = "192.168.1.10"  # Camera's IP address
+camera_ip = "192.168.1.24"  # Camera's IP address
 username = "admin"  # Camera's username
 password = "123456"  # Camera's password
 
 # Example RTSP URL format based on the image (Main Stream)
-rtsp_url = f"rtsp://{username}:{password}@{camera_ip}:554/h264"
+rtsp_url = f"rtsp://{username}:{password}@{camera_ip}:554/h265"
 
 cap = None
 
